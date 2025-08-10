@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <title>{{title}}</title>
+        <link rel = "stylesheet"  type = "text/css" href = "{% static "style.css" %}"
+
+
+
+    </HEAD>
+    <BODY>
+    <div class = "container">
+
+        <h1>{{title}}</h1>
+        <a href="{% url 'task' %}" class="btn">View Tasks</a>
+    </div>
+    </BODY>
+</HTML>
